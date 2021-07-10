@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Gallery</title>
+
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section class="gallery section container">
+        <h2 class="section-title">Galería</h2>
+        <div class="gallery__list" id="gallery-list">
+            <a href="#" class="gallery__category active" data-filter="all">Todos</a>
+            <a href="#" class="gallery__category" data-filter=".hamburguesa">Hamburguesa</a>
+            <a href="#" class="gallery__category" data-filter=".pizza">Pizza</a>
+            <a href="#" class="gallery__category" data-filter=".sushi">Sushi</a>
+            <a href="#" class="gallery__category" data-filter=".burrito">Burrito</a>
+            <a href="#" class="gallery__category" data-filter=".tender">Tender</a>
+        </div>
+
+        <div class="gallery__products">
+            <div class="gallery__item mix burrito">
+                <a href="img/burrito1.jpg" data-lightbox="image-1">
+                    <img src="img/burrito1.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Burrito Mix</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="gallery__item mix hamburguesa">
+                <a href="img/hamburguesa1.jpg" data-lightbox="image-1">
+                    <img src="img/hamburguesa1.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Hamburguesa</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery__item mix hamburguesa">
+                <a href="img/hamburguesa2.jpg" data-lightbox="image-2">
+                    <img src="img/hamburguesa2.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Hamburguesa</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery__item mix hamburguesa">
+                <a href="img/hamburguesa3.jpg" data-lightbox="image-3">
+                    <img src="img/hamburguesa3.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Hamburguesa</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery__item mix pizza">
+                <a href="img/pizza1.jpg" data-lightbox="image-1">
+                    <img src="img/pizza1.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Pizza</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery__item mix pizza">
+                <a href="img/pizza2.jpg" data-lightbox="image-2">
+                    <img src="img/pizza2.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Pizza</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery__item mix pizza">
+                <a href="img/pizza3.jpg" data-lightbox="image-3">
+                    <img src="img/pizza3.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Pizza</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery__item mix sushi">
+                <a href="img/sushi1.jpg" data-lightbox="image-1">
+                    <img src="img/sushi1.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Sushi</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery__item mix sushi">
+                <a href="img/sushi2.jpg" data-lightbox="image-2">
+                    <img src="img/sushi2.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Sushi</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery__item mix sushi">
+                <a href="img/sushi3.jpg" data-lightbox="image-3">
+                    <img src="img/sushi3.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Sushi</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery__item mix sushi">
+                <a href="img/sushi4.jpg" data-lightbox="image-4">
+                    <img src="img/sushi4.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Sushi</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery__item mix tender">
+                <a href="img/tender1.jpg" data-lightbox="image-1">
+                    <img src="img/tender1.jpg" alt="Product">
+                    <div class="gallery__item-content">
+                        <i class="fas fa-search-plus gallery__item-icon"></i>
+                        <p class="gallery__item-title">Tender</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mixitup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+
+    <!-- Lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
